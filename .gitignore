@@ -1,0 +1,22 @@
+# Local notebook and Python state
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Input media, generated results, downloaded models, and logs
+/inputs/
+/outputs/
+/models/
+/weights/
+/logs/
+*.log
+
+# Desktop metadata
+.DS_Store
+Thumbs.db
